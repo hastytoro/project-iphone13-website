@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone 13 Animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&family=Montserrat:wght@100;300;400;500;700&family=Nunito:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@400;500&family=Space+Mono:wght@400;700&family=Trispace:wght@300;400;500;700&family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR / FLEX CONTAINER ROW -->
+    <nav>
+      <!-- flex item 1 -->
+      <a class="logo" href="./index.html">iPhone 13 Pro</a>
+      <!-- flex item 2 -->
+      <div class="nav-links">
+        <a href="#">Overview</a>
+        <a href="#">Switching to iPhone</a>
+        <a href="#">Tech Specs</a>
+        <button class="buy-button">Buy</button>
+      </div>
+    </nav>
+    <!-- FIRST PAGE / FLEX CONTAINER COLUMN -->
+    <section class="first-page">
+      <!-- flex item 1 -->
+      <div class="first-page-text">
+        <h1 class="first-page-title">iPhone 13 Pro</h1>
+        <h2 class="first-page-subtitle">Oh. So. Pro</h2>
+      </div>
+      <!-- flex item 2 -->
+      <video
+        class="intro-video"
+        autoplay
+        src="./images/intro-animation.mov"
+        muted
+      ></video>
+    </section>
+    <!-- SECOND PAGE / FLEX CONTAINER COLUMN -->
+    <section class="second-page">
+      <!-- flex item 1 -->
+      <video
+        class="smoke-video"
+        autoplay
+        muted
+        loop
+        src="./images/smoke-video.mp4"
+      ></video>
+      <!-- flex item 2 -->
+      <div class="second-page-text">
+        <p class="text-container">
+          <span class="highlight"
+            >A dramatically more powerful camera system.</span
+          >
+          <span class="highlight"
+            >A display so responsive, every interaction feels new again.</span
+          >
+          <span class="highlight">The world's fastest smartphone chip.</span>
+          <span class="highlight">Exceptional durability.</span>
+          <span class="highlight">And a huge leap in battery life.</span>
+          <br />
+          <br />
+          <span class="highlight">Let's pro!</span>
+        </p>
+      </div>
+    </section>
+    <!-- THIRD PAGE -->
+    <section class="third-page">
+      <!-- FLEX CONTAINER ROW -->
+      <div class="product-text-container">
+        <!-- flex item 1 -->
+        <div class="product-text-left">
+          <p class="phone-title">iPhone 13 Pro Max</p>
+          <p class="phone-size pro-size">6.7"</p>
+        </div>
+        <!-- flex item 2 -->
+        <div class="product-text-right">
+          <p class="phone-title">iPhone 13 Max</p>
+          <p class="phone-size max-size">6.1"</p>
+        </div>
+      </div>
+      <!-- absolutely positioned -->
+      <div class="product-images">
+        <img class="large-phone" src="./images/large-phone.png" alt="" />
+        <img class="small-phone" src="./images/small-phone.png" alt="" />
+      </div>
+      <!-- absolutely positioned -->
+      <p class="retina-line">Super Retina XDR display with ProMotion.</p>
+    </section>
+    <!-- FOURTH PAGE / FLEX CONTAINER ROW -->
+    <section class="fourth-page">
+      <!-- flex item 1 (sub-flex container column) -->
+      <div class="purchase-left">
+        <!-- sub-flex item 1.2 -->
+        <div class="phone-gallery">
+          <div class="phone-gallery-container blue-cont">
+            <img
+              class="blue-back"
+              src="./images/blue-iphone-back.png"
+              alt="iphone-back"
+            />
+          </div>
+          <div class="phone-gallery-container sliver-cont">
+            <img
+              class="silver-back"
+              src="./images/silver-iphone-back.png"
+              alt="iphone-back"
+            />
+          </div>
+          <div class="phone-gallery-container gold-cont">
+            <img
+              class="gold-back"
+              src="./images/gold-iphone-back.png"
+              alt="iphone-back"
+            />
+          </div>
+          <div class="phone-gallery-container graphite-cont">
+            <img
+              class="graphite-back"
+              src="./images/graphite-iphone-back.png"
+              alt="iphone-back"
+            />
+          </div>
+        </div>
+        <!-- sub-flex item 1.2 -->
+        <div class="swatch-container">
+          <div class="swatches circles">
+            <img src="./images/swatch-blue.svg" swatch="blue" alt="" />
+            <img src="./images/swatch-silver.svg" swatch="silver" alt="" />
+            <img src="./images/swatch-gold.svg" swatch="gold" alt="" />
+            <img src="./images/swatch-graphite.svg" swatch="graphite" alt="" />
+            <p>
+              <span>Sierra Blue</span>, <span>Silver</span>, <span>Gold</span>,
+              <span>Graphite</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- flex item 2 -->
+      <div class="purchase-right">
+        <img class="blue phone" src="./images/blue-closeup.png" />
+        <img class="silver phone" src="./images/silver-closeup.png" />
+        <img class="gold phone" src="./images/gold-closeup.png" />
+        <img class="graphite phone" src="./images/graphite-closeup.png" />
+      </div>
+    </section>
+    <!-- FIFTH PAGE -->
+    <section class="section fifth-page">
+      <video class="product-video" src="./images/output-2.mp4" muted></video>
+      <!-- FLEX CONTAINER ROW -->
+      <div class="product-info-container">
+        <!-- flex item 1 -->
+        <div class="left-info">
+          <h3>
+            up to<br /><span>25% brighter outdoors</span><br />
+            for content that looks even more vivid in sunlight.
+          </h3>
+          <h3>
+            <span>Even more display</span><br />
+            thanks to a better front camera system.
+          </h3>
+        </div>
+        <!-- flex item 2 -->
+        <div class="right-info">
+          <h3>
+            <span>OLED technology</span><br />pushes the display incredible
+            resolution and color right to the edge.
+          </h3>
+          <h3>
+            up to<span> 1200 nits</span> peak brightness for your HDR photos and
+            videos.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- SIXTH PAGE / FLEX CONTAINER ROW -->
+    <section class="sixth-page">
+      <!-- flex item 1 -->
+      <div class="photo-description">
+        <h3 class="photo-title">Customize <br />your camera to</h3>
+        <h4 class="photo-subtitle">lock in your look.</h4>
+      </div>
+      <!-- flex item 2 -->
+      <div class="portrait-container">
+        <img class="portrait" src="./images/portrait.jpg" alt="" />
+      </div>
+      <!-- absolutely positioned -->
+      <div class="phone-video">
+        <img src="./images/iphone-frame.png" alt="" />
+        <video
+          src="./images/iphone-camera-video.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
